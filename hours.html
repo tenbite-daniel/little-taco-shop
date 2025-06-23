@@ -19,16 +19,16 @@
             <nav class="header__nav">
                 <ul class="header__ul">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a class="header__a" href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="index.html#menu">Menu</a>
+                        <a class="header__a" href="index.html#menu">Menu</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a class="header__a" href="contact.html">Contact</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a class="header__a" href="about.html">About</a>
                     </li>
                 </ul>
             </nav>
@@ -49,6 +49,7 @@
 
         <main class="main">
             <article class="main__article">
+                <h2>Hours</h2>
                 <p>We are open 7 days a week!</p>
                 <dl>
                     <dt>Sunday-Thursday</dt>
@@ -56,16 +57,16 @@
                     <dt>Friday-Saturday</dt>
                     <dd>11am-11pm</dd>
                 </dl>
-                <p>
-                    <a href="#">Back To Top</a>
-                </p>
             </article>
         </main>
         <footer class="footer">
             <p>
-                <span class="nowrap">Copyright &copy;</span>
+                <span class="nowrap"
+                    >Copyright &copy; <time id="year"></time>
+                </span>
                 <span class="nowrap">Little Taco Shop</span>
             </p>
         </footer>
+        <script src="js/main.js" defer></script>
     </body>
 </html>
